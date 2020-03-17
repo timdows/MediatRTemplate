@@ -1,4 +1,4 @@
-# MediatRTemplate (With thanks to Jeffrey)
+# MediatRTemplate (With thanks to [Jeffrey](https://github.com/ThumNet))
 Visual Studio template for MediatR with FluentValidation
 
 This template creates 4 files to implement an UserCase with MediatR and FluentValidation. The created files are:
