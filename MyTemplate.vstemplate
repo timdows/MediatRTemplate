@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MediatrService</DefaultName>
+    <Name>Mediatr Service</Name>
+    <Description>Creates Mediatr Request, Response, RequestValidator and Handler classes</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>    
+  </TemplateData>
+  <TemplateContent>
+    <CustomParameters>
+      <CustomParameter Name="$servicename$" Value="$fileinputname$"/>  
+    </CustomParameters>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Handler.cs" ReplaceParameters="true">MyHandler.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Request.cs" ReplaceParameters="true">MyRequest.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Response.cs" ReplaceParameters="true">MyResponse.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$RequestValidator.cs" ReplaceParameters="true">MyRequestValidator.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
